@@ -8,6 +8,19 @@
  * - Which ever category score is higher earns 1 point for that triplet, if they are the same then no point is awarded.
  * - Repeat for each category score in the triplet summing the points earned for each triplet.
  * - Return the total of points for each triplet as follows: "2 2" (No quotations included).
+ *
+ * Sample Input:
+ *
+ * STDIN
+ * -----
+ * 5 6 7
+ * 3 6 10
+ *
+ * Sample Output:
+ *
+ * STDOUT
+ * ------
+ * 1 1
  */
 function compareTriplets($arr1, $arr2) {
     $aTotalPoints = 0;
